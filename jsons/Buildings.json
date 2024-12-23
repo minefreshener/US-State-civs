@@ -13,5 +13,36 @@
 			"[+1 Food] from [Pasture] tiles [in this city]",
 		        "Unsellable", "New [Mounted] units start with [15] Experience [in this city]"],
 		"requiredTech": "Animal Husbandry"
-	}
+	},
+		{
+		"name": "Empire State Building",
+		"cost": 1000,
+		"culture": 4,
+		"greatPersonPoints": {"Great Engineer": 3},
+		"isNationalWonder": true,
+		"uniqueTo": "New York",
+		"uniques": ["Only available <if [Hospital] is constructed in all [non-[Puppeted]] cities>", "[+75]% Great Person generation [in this city]", "Cost increases by [10] per owned city"],
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Twin Towers",
+		"cost": 1000,
+		"gold": 4,
+		"greatPersonPoints": {"Great Merchant": 3},
+		"isNationalWonder": true,
+		"uniqueTo": "New York",
+		"uniques": ["Only available <if [Stock Exchange] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [10] per owned city", "Empire enters golden age", "Resting point for Influence with City-States is increased by [10]"],
+		"requiredTech": "Industrialization"
+		{
+		"name": "Yale University",
+		"replaces": "National College",
+		"uniqueTo": "Connecticut",
+		"cost": 650,
+		"culture": 3,
+		"greatPersonPoints": {"Great Scientist": 3},
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 75},
+		"uniques": ["Only available <if [University] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [10] per owned city", "Empire enters golden age"],
+		"requiredTech": "Education"
+	},
 ]
