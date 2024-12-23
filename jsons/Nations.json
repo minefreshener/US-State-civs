@@ -27,8 +27,8 @@
 		"afterPeace": "Very well, all that fighting was getting boring anyway.",
 		"tradeRequest": "We bestow you the honor of this trade offer.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
+		"outerColor": [ 250, 4, 4],
+		"innerColor": [255, 255, 255],
 		"unique": "The Lone Star",
 		"uniqueText": "[+25]% spy effectiveness [in City-State cities], [+1 Culture] from [Cattle] tiles [in all cities], [+2 Food] from [Cattle] tiles [in all cities] <after discovering [Fertilizer]>",
 		"uniques": ["[+25]% spy effectiveness [in City-State cities]", "[+1 Culture] from [Cattle] tiles [in all cities]","[+2 Food] from [Cattle] tiles [in all cities] <after discovering [Fertilizer]>"],
@@ -36,5 +36,79 @@
 			"Plano","Lubbock","Laredo","Irving","Garland","Frisco","Mckinney","Amarillo","Grand Prairie","Brownsville",
 			"Killeen","Denton","Mesquite","Pasadena","Mcallen","Waco","Midland","Lewisville","Carrollton","Round Rock",
 			"Abilene","Pearland","College Station","Richardson","League City","Odessa"]
+	},
+		{
+		"name": "New York",
+		"leaderName": "George Clinton",
+		"adjective": ["New York"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "We come in peace!",
+		"startIntroPart2": "Placeholder text",
+		
+		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
+		"attacked": "You want to play? Very funny!",
+		"defeated": "Placeholder text",
+		"introduction": "Placeholder text",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [0, 45, 125],
+		"unique": "The Empire State",
+		"uniques": ["[+1 Culture] from every [National Wonder]", "[+50]% growth [in capital] <during the [Industrial era]>"],
+		"cities": ["Albany","New York City","Butternuts","Yonkers","Islip","Oyster Bay","Buffalo","Hempstead","Syracuse",
+			"Babylon","Brookhaven","Rochester","Sherrill","Schenectady","Troy","Poughkeepsie","Utica","Binghamton","Amsterdam",
+			"Antwerp","Batavia","Bemus Point","Canandaigua","Canaseraga","Delhi","Deposit","Elmira","Florida","Goshen",
+			"Hannibal","Ithaca","Johnstown","Kaser","Lake Success","Manlius"]
+	},
+			{
+		"name": "Connecticut",
+		"leaderName": "Lyman Hall",
+		"adjective": ["Connecticut"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "We come in peace!",
+		"startIntroPart2": "Placeholder text",
+		
+		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
+		"attacked": "You want to play? Very funny!",
+		"defeated": "Placeholder text",
+		"introduction": "Placeholder text",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [248, 202, 86],
+		"innerColor": [255, 255, 255],
+		"unique": "Land of Steady Habits",
+		"uniques": ["[-10]% Culture cost of adopting new Policies", "[+1 Science, +1 Culture] per [1] social policies adopted", "[+1 Science, +1 Culture] from every [Library]", "[+2 Science, +1 Culture] from every [University]"],
+		"cities": ["Hartford","Bridgeport","Essex","New Haven","Stamford","Waterbury","Norwalk","Danbury","New Britain",
+			"Greenwich","Ansonia","Bozrah","Cheshire","Durham","East Haven","Fairfield","Guilford","Hamden","Litchfield",
+			"Meriden","Naugatuck","Old Saybrook","Putnam","Rocky Hill","Southington","Thomaston","Union","Vernon","Wallingford",
+			"Orange","North Haven","Milford","Lyme","Lebanon","Groton"]
 	}
 ]
