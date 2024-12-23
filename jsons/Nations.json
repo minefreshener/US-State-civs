@@ -1,18 +1,18 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
+		"name": "Texas",
+		"leaderName": "Sam Houston",
+		"adjective": ["Texan"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		"startIntroPart2": "Placeholder text",
 		
 		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
 		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		"defeated": "Placeholder text",
+		"introduction": "Placeholder text",
 		
 		"neutralHello": "How are you doing?",
 		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
@@ -29,10 +29,12 @@
 
 		"outerColor": [16,16,16],
 		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"unique": "The Lone Star",
+		"uniqueText": "[+25]% spy effectiveness [in City-State cities], [+1 Culture] from [Cattle] tiles [in all cities], [+2 Food] from [Cattle] tiles [in all cities] <after discovering [Fertilizer]>",
+		"uniques": ["[+25]% spy effectiveness [in City-State cities]", "[+1 Culture] from [Cattle] tiles [in all cities]","[+2 Food] from [Cattle] tiles [in all cities] <after discovering [Fertilizer]>"],
+		"cities": ["Auston","Houston","Dallas","Kinkler","San Antonio","Fort Worth","El Paso","Arlington","Corpus Christi",
+			"Plano","Lubbock","Laredo","Irving","Garland","Frisco","Mckinney","Amarillo","Grand Prairie","Brownsville",
+			"Killeen","Denton","Mesquite","Pasadena","Mcallen","Waco","Midland","Lewisville","Carrollton","Round Rock",
+			"Abilene","Pearland","College Station","Richardson","League City","Odessa"]
 	}
 ]
