@@ -14,5 +14,21 @@
 		"upgradesTo": "Great War Infantry",
 		"uniques": ["[+100]% Strength <vs [Armored] units>"],
 		"attackSound": "shot"
+	}, 
+		{
+		"name": "Connecticut Militia",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Connecticut",
+		"movement": 2,
+		"strength": 18,
+		"range": 1,
+		"rangedStrength": 26,
+		"cost": 100,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"uniques": ["[+100]% Strength <vs [Armored] units>"],
+		"attackSound": "shot"
 	}
 ]
